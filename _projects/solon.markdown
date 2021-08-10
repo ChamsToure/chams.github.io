@@ -2,7 +2,7 @@
 layout: page
 title: Solon
 description: A Virtual Assistant to improve productivity and learning
-img: /assets/img/learn-screenshot.png
+img: 
 importance: 2
 ---
 

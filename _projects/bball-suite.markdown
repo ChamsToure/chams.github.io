@@ -2,7 +2,7 @@
 layout: page
 title: Basketball Suite
 description: A Training Plan Generator for Basketball to pick the right exercises. It also helps you to track and rate good plans, for better reusability.
-img: /assets/img/panthers-suite-screenshot2.png
+img: 
 importance: 1
 ---
 

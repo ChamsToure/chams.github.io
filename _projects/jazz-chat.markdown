@@ -2,7 +2,7 @@
 layout: page
 title: Jazz Chat
 description: A Chat App for Android and iOS with Flutter and Cloud Firestore as the database
-img: /assets/img/jazz-chat-demo.gif
+img: 
 importance: 3
 ---
 
