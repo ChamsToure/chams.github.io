@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Chams Toure | Chams Toure</title>
+<title>Chams Toure | Neural Network from scratch</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -30,7 +30,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/neuralnetwork/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -95,7 +95,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -154,18 +154,34 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Blog</h1>
-    <h2>Writings about everything</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Neural Network from scratch</h1>
+    <p class="post-description">A simple Neural Netwrok with 3 Layers</p>
+  </header>
 
+  <article>
+    <h3 id="github-repo"><a href="https://github.com/ChamsToure/neuralnetwork">github repo</a></h3>
 
-  <ul class="post-list">
-    
-  </ul>
+<h1 id="a-basic-neural-network-from-scratch">A basic neural network from scratch</h1>
 
-  
+<h2 id="description">Description</h2>
 
+<p>The Architecture of the Neural Network is simple with 1 input layer 1 hidden layer and 1 output layer.
+This program serves primarly as a learning project, to fully understand the fundamental parts and mechanics
+of a simple Neural Network without any large frameworks.</p>
+
+<h2 id="requirements">Requirements</h2>
+<p>The only additional library you need is the <strong>Eigen</strong> library, for the computations.
+For this project I use the Eigen 3.3.9 version. You can get it <a href="https://eigen.tuxfamily.org/index.php?title=Main_Page">here</a></p>
+
+<h2 id="how-to-build">How to build</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd to &lt;project-folder&gt;
+g++ main.cpp nnet.cpp -o main.exe
+./main.exe
+</code></pre></div></div>
+
+  </article>
 
 </div>
 
